@@ -1,0 +1,87 @@
+A High-Level Overview of Web Development
+	When a user request a page(URL) on the browser it asks server to access the file where server sends the request file as response: HTML, CSS, and JS.
+	
+	These file are the core file that any browser can understands.
+	Then, upon receiving the files, browser renders the page.
+	
+	The process where browser understanding the code is called Front-end Web Development.
+	
+	Whenever the file simply sent from the server to browser as they are without any change is called Static Web Site.
+	
+	Example: When user request some blog post or landing page of some kind then they appear on the browser, as it is on the server, without any change.
+	
+	In contrast, when the content are request based on the user preference or latest updates then server process the request or queries the latest data from the database, which needs to be processed and assembled, alongside files: html, CSS, and JS; all handled by back-end separate application, then the final(pre-rendered) or just data are sent back to the user(browser).
+	This whole process is called Back-end Web Development or Dynamic Web Site, as they are dynamically assembled from different pieces.
+	
+	Example: udemy.com as the contents are ever changing like latest courses, ratings, reviews, comments, and so on. All these changes are processed and queries into the database and upon request are assembled back from the server, a back-end app, and sent as a dynamic response to the client.
+	
+THE 3 LANGUAGES OF THE FRONT-END
+		1. HTML(Noun): All the raw Content of the page: images, text, button, and so on.
+		
+		2. CSS(Adjective): All the layout and presentation of the content with styles.
+		
+		3. JAVASCRIPT(Verb): An actual programming language of the front-end, which allows to add dynamic and interactive content into the front-end.
+		
+		Also, allows to manipulate the content of the page: html, and css or load data from the server, and even helps build the entire front-end application on its own.
+	
+		
+	
+	
+	
+<HTML/>
+
+		- HyperText Markup Language
+		- HTML is a markup language that structure and describe the content of a webpage (not a programming language)
+		- HTML consists different types of elements: paragraphs, links, headings, images, videos, etc
+		- Web browsers understand HTML and render HTML code as websites
+	
+		
+	
+	
+	HTML Document Structure
+	
+			1. <!DOCTYPE html>: this specifies to the webpage to use modern HTML5, unlike other XHML, and HTML version below 5.
+			
+			2. <html>
+			
+				<h1>Wraps all the content needed to make a web page fully functional</h1>
+				
+			3.   <head>
+					<metadata name="description" content="Wraps the required metadata for SEO and external sources that aid maintain page.">
+					<title> HTML Document Structure </title>
+			  </head>
+				
+			4.   <body> 
+			
+					<headers>Wraps top most section of the page</headers>
+					
+					<main>Wraps all the main content of the page. </main>
+				
+			5.      <footer> 
+						<script src='../main.js'></script>
+						Wraps all the top bottom section, mostly webpage additional information, and scripts
+					</footer>
+				
+				</body>
+			</html>
+		
+		Summary of Key Sections:
+			• <!DOCTYPE html>: Defines the document as HTML5.
+			• <html>: The root element that wraps everything.
+			• <head>: Contains metadata, external links (CSS, fonts), and the page title.
+			• <body>: Contains all visible content (text, images, videos, etc.) for the webpage.
+				○ <header>: Top section, usually containing the title or logo.
+				○ <nav>: Navigation section with links.
+				○ <main>: Primary content of the page (main sections and content).
+				○ <footer>: Bottom section for things like copyright and additional links.
+			• <script>: For linking external JavaScript files or embedding inline scripts.
+		
+CSS
+	Cascading Style Sheet 
+	CSS describes the visual style and presentation of the content written in HTML
+		
+
+
+
+
+
